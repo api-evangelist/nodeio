@@ -38,7 +38,7 @@ x-status: acquired
 x-acquired-by: sugarcrm
 x-acquired-date: '2020-08-24'
 x-domain-status: parked-for-sale
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
