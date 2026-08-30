@@ -67,6 +67,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/sugarcrm/
+  name: SugarCRM
+  x-relationship: acquired
+  x-evidence: "was acquired by SugarCRM, which folded the technology into its sales and CX products rather than continuing to sell it as a standalone product."
 - type: Website
   url: https://node.io
 - type: Crunchbase
