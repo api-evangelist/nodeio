@@ -23,17 +23,16 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nodeio.png
 name: Node.io
-description: >-
-  Node (Node.io, legally Node Inc.) was an artificial-intelligence startup founded in 2014 by former
-  Google executive Falon Fatemi. Node marketed an "artificial intuition" platform that combined a
-  customer's CRM data with a large external graph of people and companies to score and predict which
-  prospects, partners, employees, or investors a business should engage next. The company raised
-  roughly $16M from investors including 500 Global, Mark Cuban, Avalon Ventures, Canaan Partners, and
-  Bee Partners. On 2020-08-24 Node Inc. was acquired by SugarCRM, which folded the technology into its
-  sales and CX products rather than continuing to sell it as a standalone product. Node.io no longer
-  operates as an independent company and publishes no developer portal, documentation, or public API;
-  the node.io domain is now a parked GoDaddy/Afternic "for sale" listing. This profile is retained in
-  the API Evangelist network as a historical company record with no live API surface to enrich.
+description: Node (Node.io, legally Node Inc.) was an artificial-intelligence startup founded in 2014
+  by former Google executive Falon Fatemi. Node marketed an "artificial intuition" platform that combined
+  a customer's CRM data with a large external graph of people and companies to score and predict which
+  prospects, partners, employees, or investors a business should engage next. The company raised roughly
+  $16M from investors including 500 Global, Mark Cuban, Avalon Ventures, Canaan Partners, and Bee Partners.
+  On 2020-08-24 Node Inc. was acquired by SugarCRM, which folded the technology into its sales and CX
+  products rather than continuing to sell it as a standalone product. Node.io no longer operates as an
+  independent company and publishes no developer portal, documentation, or public API; the node.io domain
+  is now a parked GoDaddy/Afternic "for sale" listing. This profile is retained in the API Evangelist
+  network as a historical company record with no live API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/nodeio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -45,13 +44,13 @@ x-backed-by:
 - bee-partners
 x-tier: stub
 x-tier-reason: defunct-acquired
-x-status: acquired
+x-status: defunct
 x-acquired-by: sugarcrm
 x-acquired-date: '2020-08-24'
 x-domain-status: parked-for-sale
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-09-15'
 tags:
 - Company
 - Artificial Intelligence
@@ -71,7 +70,8 @@ common:
   url: https://apis.io/providers/sugarcrm/
   name: SugarCRM
   x-relationship: acquired
-  x-evidence: "was acquired by SugarCRM, which folded the technology into its sales and CX products rather than continuing to sell it as a standalone product."
+  x-evidence: was acquired by SugarCRM, which folded the technology into its sales and CX products rather
+    than continuing to sell it as a standalone product.
 - type: Website
   url: https://node.io
 - type: Crunchbase
@@ -81,7 +81,6 @@ x-enrichment:
   status: nochange
   artifacts_added: 0
   pass: local-v1
-  notes: >-
-    Company defunct: Node Inc. acquired by SugarCRM 2020-08-24; node.io domain now parked/for-sale
-    (afternic). No developer portal, docs, or API surface exists to enrich. Identity corrected from
-    generic VC-portfolio stub to accurate historical record.
+  notes: 'Company defunct: Node Inc. acquired by SugarCRM 2020-08-24; node.io domain now parked/for-sale
+    (afternic). No developer portal, docs, or API surface exists to enrich. Identity corrected from generic
+    VC-portfolio stub to accurate historical record.'
